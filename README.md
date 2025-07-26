@@ -42,45 +42,7 @@ YOUR_EMAIL=youremail@gmail.com
 APP_PASSWORD=your_app_password
 
 
-GET /
-<h1>Email sender is On (Code with DM!)</h1>
-
-✅ Request Body Example (Single Recipient):
-{
-  "email": "recipient@example.com",
-  "subject": "Test Email",
-  "html": "<h1>Hello!</h1><p>This is a test email.</p>"
-}
-
-✅ Request Body Example (Multiple Recipients):
-{
-  "email": ["user1@example.com", "user2@example.com"],
-  "subject": "Group Email",
-  "html": "<p>This email goes to multiple recipients.</p>"
-}
-
-✅ Successful Response:
-
-Edit
-{
-  "success": true,
-  "message": "Email sent to recipient@example.com"
-}
-
-❌ Error Response:
-Edit
-{
-  "success": false,
-  "error": "email, subject, and html are required"
-}
-
-🔧 Install dependencies
-pip install -r requirements.txt
-
-🔐 Set environment variables
-export YOUR_EMAIL=youremail@gmail.com
-export APP_PASSWORD=your_app_password
-
+---
 ▶️ Run the Flask app
 python app.py
 
