@@ -37,12 +37,10 @@ email-sender/
 
 Create a `.env` file or set environment variables in your environment:
 
-```env
-YOUR_EMAIL=youremail@gmail.com
-APP_PASSWORD=your_app_password
-
-
 ---
 ▶️ Run the Flask app
 python app.py
 
+```env
+YOUR_EMAIL=youremail@gmail.com
+APP_PASSWORD=your_app_password
