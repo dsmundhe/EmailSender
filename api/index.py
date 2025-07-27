@@ -14,7 +14,7 @@ APP_PASSWORD = os.environ.get("APP_PASSWORD")
 
 @app.route("/", methods=["GET"])
 def hello():
-    return "<h1>Email sender is On (Code with DM!)</h1>"
+    return "<h1>Email sender is On </h1>"
 
 @app.route("/send-email", methods=["POST"])
 def send_email():
